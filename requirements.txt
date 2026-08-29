@@ -1,0 +1,7 @@
+PyQt6>=6.6
+requests>=2.31
+beautifulsoup4>=4.12
+
+# —— 以下为构建 / 维护工具，运行程序本身不需要 ——
+# pyinstaller>=6.16        # 打包 exe：pyinstaller --noconfirm --clean --windowed --onefile --name 书籍百科 --icon icon.ico --add-data "icon.png;." book_encyclopedia.py
+# pillow>=10.0             # 重新生成图标：python make_icon.py
