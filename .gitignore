@@ -1,0 +1,7 @@
+# Python
+__pycache__/
+*.pyc
+
+# PyInstaller 构建产物（成品 exe 通过 GitHub Releases 分发）
+build/
+dist/
